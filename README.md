@@ -1,6 +1,6 @@
 # dotfiles
 ```
-yum install -y git
+sudo yum install -y git
 cd ~
 git clone https://github.com/evistream/dotfiles
 sudo -u root sh ./dotfiles/initialize_CentOS7.sh

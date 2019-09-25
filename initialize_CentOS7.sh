@@ -1,6 +1,7 @@
 # 研究室で計算用サーバーを設定するためのファイル
 HOSTNAME=node2
 LOCAL_IP=157.82.23.245/24
+ADDUSERNAME=node
 
 # selinux
 mv /etc/selinux/config{,.org}
@@ -33,5 +34,5 @@ yum install -y epel-release
 yum install -y zsh python36
 
 ## ユーザーの初期設定
-chsh -s /bin/zsh node
-sudo -u node sh ./dotfiles/initialize_user.sh
+chsh -s /bin/zsh $ADDUSERNAME
+sudo -u $ADDUSERNAME sh ./dotfiles/initialize_user.sh

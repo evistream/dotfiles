@@ -1,10 +1,12 @@
-source ~/Documents/sakurayama_workspace/venv/bin/activate
+source ~/venv/bin/activate
+
+export LANG=C
 
 # prompt
 PS1="%% "
 autoload -Uz promptinit
 promptinit
-prompt bart red
+prompt bart green
 
 # color
 autoload -Uz colors
