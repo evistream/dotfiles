@@ -34,4 +34,4 @@ yum install -y zsh python36
 
 ## ユーザーの初期設定
 chsh -s /bin/zsh node
-sudo -u node sh initialize_user.sh
+sudo -u node sh ./dotfiles/initialize_user.sh
