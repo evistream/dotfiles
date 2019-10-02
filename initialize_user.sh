@@ -13,5 +13,6 @@ pip install --upgrade pip
 pip install numpy scipy pandas matplotlib jupyter h5py parse
 
 ln -s ~/dotfiles/zshrc ~/.zshrc
+cp -r ~/dotfiles/jupyter ~/.jupyter
 
 mkdir -p ~/Documents/sakurayama_workspace
