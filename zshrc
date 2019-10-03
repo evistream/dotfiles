@@ -1,4 +1,4 @@
-source ~/venv/bin/activate
+export JUPYTER_CONFIG_DIR=~/.jupyter
 
 export LANG=C
 
@@ -7,6 +7,9 @@ PS1="%% "
 autoload -Uz promptinit
 promptinit
 prompt bart green
+
+# python virtual env
+source ~/venv/bin/activate
 
 # color
 autoload -Uz colors

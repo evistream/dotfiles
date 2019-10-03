@@ -1,10 +1,19 @@
 {
   "load_extensions": {
-    "highlight_selected_word/main": true
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true
+    "highlight_selected_word/main": true,
+    "code_prettify/autopep8": true,
+    "hinterland/hinterland": true
   },
   "Cell": {
     "cm_config": {
       "lineNumbers": false
+    }
+  },
+  "autopep8": {
+    "hotkeys": {
+      "process_all": "meta-shift-a"
     }
   }
 }

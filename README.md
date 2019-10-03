@@ -1,4 +1,6 @@
-# dotfiles
+dotfiles for CentOS
+
+# how to install
 ```
 sudo yum install -y git
 cd ~
