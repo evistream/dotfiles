@@ -48,5 +48,14 @@ bindkey '^R' history-incremental-pattern-search-backward
 
 alias la='ls -a'
 alias ll='ls -l'
+dirtouch() {
+    paths=($@)
+    for i in $paths
+    do
+        mkdir -p "$(dirname $i)"
+        touch "$i"
+    done
+}
+alias touch=dirtouch
 
 alias sakura='cd ~/Documents/sakurayama_workspace'

@@ -10,7 +10,7 @@ cd ~
 python3.6 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
-pip install numpy scipy pandas matplotlib jupyter h5py parse autopep8
+pip install numpy scipy pandas matplotlib jupyter h5py parse autopep8 requests
 
 ln -s ~/dotfiles/zshrc ~/.zshrc
 
