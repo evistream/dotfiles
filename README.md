@@ -20,4 +20,7 @@ git add .
 git status
 git commit -m "[comment]"
 git push -u origin master
+
+git reset --hard HEAD
+git pull
 ```
