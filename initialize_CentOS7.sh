@@ -34,6 +34,7 @@ firewall-cmd --reload
 yum install -y epel-release
 yum install -y zsh python36
 
+chsh -s /bin/zsh 
 ## ユーザーの初期設定
 chsh -s /bin/zsh $ADDUSERNAME
 sudo -u $ADDUSERNAME sh ./dotfiles/initialize_user.sh
