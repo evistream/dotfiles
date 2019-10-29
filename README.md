@@ -5,7 +5,10 @@ dotfiles for CentOS
 sudo yum install -y git
 cd ~
 git clone https://github.com/evistream/dotfiles
-sudo -u root sh ./dotfiles/initialize_CentOS7.sh
+vim ./dotfilese/initialize_CentOS7.sh
+su
+# sudo -u root sh ./dotfiles/initialize_CentOS7.sh
+sh ./dotfiles/initialize_CentOS7.sh
 ```
 
 # gitの図

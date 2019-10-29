@@ -26,7 +26,8 @@ timedatectl set-local-rtc 0
 timedatectl set-timezone Asia/Tokyo
 
 ## Firewall
-firewall-cmd --zone=public --add-port 8888/tcp --permanent
+firewall-cmd --zone=public --add-port 8888/tcp --permanent #jupyter
+firewall-cmd --zone=public --add-port 5901/tcp --permanent #vncserver
 firewall-cmd --reload
 
 ## パッケージインストール
@@ -36,3 +37,6 @@ yum install -y zsh python36
 ## ユーザーの初期設定
 chsh -s /bin/zsh $ADDUSERNAME
 sudo -u $ADDUSERNAME sh ./dotfiles/initialize_user.sh
+
+## vncserver
+yum install -y tigervnc-server
