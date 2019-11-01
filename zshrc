@@ -59,3 +59,4 @@ dirtouch() {
 alias touch=dirtouch
 
 alias sakura='cd ~/Documents/sakurayama_workspace'
+alias sakural='cd ~/Documents/sakurayama_workspace/latest'
